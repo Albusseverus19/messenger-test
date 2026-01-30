@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Open Graph Meta Tags for Facebook Messenger Preview -->
+  <meta property="og:title" content="🎉 Link Preview Test for Messenger">
+  <meta property="og:description" content="Testing Facebook Messenger link preview with image. If you can see this preview with an image in Messenger, it's working perfectly!">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=630&fit=crop">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Colorful abstract preview image">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Messenger Preview Tester">
+  
+  <!-- Twitter Card (bonus - works on Twitter too) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="🎉 Link Preview Test for Messenger">
+  <meta name="twitter:description" content="Testing Facebook Messenger link preview with image.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=630&fit=crop">
+  
+  <title>Facebook Messenger Preview Test</title>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    .container {
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      max-width: 600px;
+      width: 100%;
+    }
+    
+    h1 {
+      color: #1877f2;
+      margin-bottom: 20px;
+      font-size: 28px;
+      text-align: center;
+    }
+    
+    .success {
+      background: #d4edda;
+      color: #155724;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      border-left: 4px solid #28a745;
+      font-weight: 500;
+    }
+    
+    .preview-image {
+      width: 100%;
+      border-radius: 8px;
+      margin: 20px 0;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    
+    .instructions {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    
+    .instructions h2 {
+      color: #333;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    
+    .instructions ol {
+      margin-left: 20px;
+      line-height: 1.8;
+    }
+    
+    .instructions li {
+      margin-bottom: 10px;
+      color: #555;
+    }
+    
+    .info-box {
+      background: #e7f3ff;
+      border-left: 4px solid #1877f2;
+      padding: 15px;
+      margin-top: 20px;
+      border-radius: 4px;
+    }
+    
+    .info-box strong {
+      color: #1877f2;
+    }
+    
+    a {
+      color: #1877f2;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    .emoji {
+      font-size: 48px;
+      text-align: center;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>✅ Facebook Messenger Preview Test</h1>
+    
+    <div class="success">
+      🎉 Success! This page is live and includes Open Graph meta tags.
+    </div>
+    
+    <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=630&fit=crop" alt="Preview test image" class="preview-image">
+    
+    <div class="instructions">
+      <h2>📱 How to Test in Messenger:</h2>
+      <ol>
+        <li><strong>Copy the URL</strong> of this page from your browser</li>
+        <li><strong>Verify with Facebook Debugger</strong> (optional):
+          <br>Go to <a href="https://developers.facebook.com/tools/debug/" target="_blank">developers.facebook.com/tools/debug</a>
+          <br>Paste your URL and click "Debug"
+        </li>
+        <li><strong>Send in Messenger</strong>:
+          <br>Open Facebook Messenger
+          <br>Paste the link in any chat
+          <br>You should see a preview with the image!</li>
+      </ol>
+    </div>
+    
+    <div class="info-box">
+      <strong>💡 Tip:</strong> If the preview doesn't show immediately, Facebook might need to crawl your page first. Use the Sharing Debugger and click "Scrape Again" to force an update.
+    </div>
+    
+    <div class="emoji">🔗</div>
+  </div>
+</body>
+</html>
