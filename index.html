@@ -4,25 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- Open Graph Meta Tags for Facebook Messenger Preview -->
-  <meta property="og:title" content="🎉 Messenger Preview Test - Working Image!">
-  <meta property="og:description" content="Testing Facebook Messenger link preview with a reliable image. This should work perfectly in Messenger!">
-  <meta property="og:image" content="https://raw.githubusercontent.com/albusseverus19/messenger-test/main/og-image.png">
-  <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/albusseverus19/messenger-test/main/og-image.png">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Messenger Preview Test">
-  <meta property="og:type" content="website">
+  <!-- HTML Meta Tags -->
+  <title>🎉 Link Preview Test for Messenger</title>
+  <meta name="description" content="Testing Facebook Messenger link preview with image. If you can see this preview with an image in Messenger, it's working perfectly!">
+  
+  <!-- Facebook Meta Tags -->
   <meta property="og:url" content="https://albusseverus19.github.io/messenger-test/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="🎉 Link Preview Test for Messenger">
+  <meta property="og:description" content="Testing Facebook Messenger link preview with image. If you can see this preview with an image in Messenger, it's working perfectly!">
+  <meta property="og:image" content="https://raw.githubusercontent.com/albusseverus19/messenger-test/main/og-image.png">
   
-  <!-- Twitter Card -->
+  <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="🎉 Messenger Preview Test">
-  <meta name="twitter:description" content="Testing link preview with image">
+  <meta property="twitter:domain" content="albusseverus19.github.io">
+  <meta property="twitter:url" content="https://albusseverus19.github.io/messenger-test/">
+  <meta name="twitter:title" content="🎉 Link Preview Test for Messenger">
+  <meta name="twitter:description" content="Testing Facebook Messenger link preview with image. If you can see this preview with an image in Messenger, it's working perfectly!">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/albusseverus19/messenger-test/main/og-image.png">
-  
-  <title>Facebook Messenger Preview Test</title>
   
   <style>
     * {
@@ -46,7 +45,7 @@
       padding: 40px;
       border-radius: 16px;
       box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-      max-width: 700px;
+      max-width: 600px;
       width: 100%;
     }
     
@@ -67,27 +66,16 @@
       font-weight: 500;
     }
     
-    .warning {
-      background: #fff3cd;
-      color: #856404;
-      padding: 15px;
-      border-radius: 8px;
-      margin-bottom: 20px;
-      border-left: 4px solid #ffc107;
-      font-weight: 500;
-    }
-    
     .preview-image {
       width: 100%;
       border-radius: 8px;
       margin: 20px 0;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      display: none;
     }
     
     .instructions {
       background: #f8f9fa;
-      padding: 25px;
+      padding: 20px;
       border-radius: 8px;
       margin-top: 20px;
     }
@@ -104,29 +92,8 @@
     }
     
     .instructions li {
-      margin-bottom: 12px;
+      margin-bottom: 10px;
       color: #555;
-    }
-    
-    .step {
-      background: white;
-      padding: 15px;
-      border-radius: 6px;
-      margin-top: 15px;
-      border: 2px solid #e0e0e0;
-    }
-    
-    .step strong {
-      color: #1877f2;
-      font-size: 18px;
-    }
-    
-    code {
-      background: #f0f0f0;
-      padding: 2px 6px;
-      border-radius: 3px;
-      font-family: monospace;
-      font-size: 14px;
     }
     
     a {
@@ -144,47 +111,33 @@
       text-align: center;
       margin: 20px 0;
     }
+    
+    code {
+      background: #f0f0f0;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: monospace;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>✅ Messenger Preview - Final Fix!</h1>
+    <h1>✅ Messenger Preview Test</h1>
     
-    <div class="warning">
-      ⚠️ <strong>One more step needed!</strong> You need to upload an image to your GitHub repository first.
+    <div class="success">
+      🎉 Page is live! Meta tags are configured.
     </div>
     
+    <img src="https://raw.githubusercontent.com/albusseverus19/messenger-test/main/og-image.png" alt="Preview test image" class="preview-image">
+    
     <div class="instructions">
-      <h2>📋 Follow These Steps:</h2>
-      
-      <div class="step">
-        <strong>Step 1:</strong> Download this test image<br>
-        Right-click and save this image: <a href="https://via.placeholder.com/1200x630/4A90E2/ffffff?text=Messenger+Test" target="_blank">Download Image</a><br>
-        <small>Or create your own 1200x630px image</small>
-      </div>
-      
-      <div class="step">
-        <strong>Step 2:</strong> Upload to GitHub<br>
-        • Go to: <a href="https://github.com/albusseverus19/messenger-test" target="_blank">your repository</a><br>
-        • Click "Add file" → "Upload files"<br>
-        • Upload the image and name it exactly: <code>og-image.png</code><br>
-        • Commit changes
-      </div>
-      
-      <div class="step">
-        <strong>Step 3:</strong> Update index.html<br>
-        • Replace your current index.html with this new version<br>
-        • Commit changes<br>
-        • Wait 1-2 minutes
-      </div>
-      
-      <div class="step">
-        <strong>Step 4:</strong> Test!<br>
-        • Go to <a href="https://developers.facebook.com/tools/debug/" target="_blank">Facebook Debugger</a><br>
-        • Paste: <code>https://albusseverus19.github.io/messenger-test/</code><br>
-        • Click "Scrape Again"<br>
-        • The image should now appear! 🎉
-      </div>
+      <h2>📱 Next Steps:</h2>
+      <ol>
+        <li><strong>Upload the image:</strong> Make sure <code>og-image.png</code> is uploaded to your GitHub repository root</li>
+        <li><strong>Test on Facebook:</strong> Go to <a href="https://developers.facebook.com/tools/debug/" target="_blank">Facebook Debugger</a> and scrape your URL</li>
+        <li><strong>Share in Messenger:</strong> The preview with image should appear!</li>
+      </ol>
     </div>
     
     <div class="emoji">📸</div>
